@@ -5,9 +5,14 @@ draw_text(_padding,_padding,
 	@"Press S and A to walk around! 
 	Press space to jump! 
 	Press F1 to toggle room_speed!
+	Press F2 to toggle target_fps!
+	Press F3 to toggle disable timestep!
 	Press Alt + Enter to toggle fullscreen!
 	Press Escape to quit the game!
-	room_speed: " + string(room_speed)
+	room_speed: " + string(room_speed) + @"
+	target_fps: " + string(global._ts_fps) + @"
+	enabled: " + string(global._ts_disabled ? "FALSE" : "TRUE") + @"
+	"
 );
 
 draw_set_halign(fa_right);

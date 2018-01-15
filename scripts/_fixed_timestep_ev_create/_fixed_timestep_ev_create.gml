@@ -9,4 +9,5 @@ global._ts_fps_min = 10;
 global._ts_fps = 60;
 global._ts_delta_restored = false;
 global._ts_steps_taken = 0; 
+global._ts_disabled = false; 
 

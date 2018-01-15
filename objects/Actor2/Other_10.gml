@@ -1,10 +1,6 @@
 /// @description Physics Step
 
 //Vertical physics
-if(y==sy){
-	vy-=dy * jump_force;
-}
-
 vy+=gravity_force;
 y+=vy;
 

@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "39547b63-981a-4685-9e2d-ee8bc0156ac9",
+            "Value": {
+                "id": "af97f596-b58f-4569-9b50-290596107469",
+                "resourcePath": "scripts\\fixed_timestep_update\\fixed_timestep_update.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3ac24f5a-cbdc-477c-a0e5-9ec4d6661efe",
             "Value": {
                 "id": "30fff921-27b4-4004-abae-df3451f21c4e",
@@ -132,14 +140,6 @@
                 "id": "10a2cc96-8f33-4c1f-b426-dc06316c530b",
                 "resourcePath": "extensions\\extFixedTimestep\\extFixedTimestep.yy",
                 "resourceType": "GMExtension"
-            }
-        },
-        {
-            "Key": "3eadc62f-9500-4234-8749-4c73b212ee68",
-            "Value": {
-                "id": "2d21d4aa-e360-488a-9fbe-7a6f4b3d0502",
-                "resourcePath": "scripts\\_fixed_timestep_ev_step_begin\\_fixed_timestep_ev_step_begin.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -204,6 +204,14 @@
                 "id": "2a25d1cd-e05c-4f6d-8013-6ba048844465",
                 "resourcePath": "views\\7a12dea2-27bc-4d45-9795-15b5464bd11a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7dc69b2e-4a2d-4651-a007-1c6c142dec83",
+            "Value": {
+                "id": "eebbf9a5-ca52-4336-ac3a-7ce3c7cdb0d1",
+                "resourcePath": "scripts\\fixed_timestep_set_disabled\\fixed_timestep_set_disabled.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -343,6 +351,14 @@
             }
         },
         {
+            "Key": "d816a35a-1e8f-4fcf-aff2-fbb510f0255b",
+            "Value": {
+                "id": "544429fb-a601-40cd-8715-ee2a3c9e63a8",
+                "resourcePath": "scripts\\fixed_timestep_set_target_fps\\fixed_timestep_set_target_fps.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d86cc25e-f99d-46e2-8c93-635cbbde590f",
             "Value": {
                 "id": "884c9a43-2a0b-4d47-bcb6-368a70e12955",
@@ -380,14 +396,6 @@
                 "id": "cbe3ab17-701b-4c13-af22-78eb85490f3a",
                 "resourcePath": "scripts\\actor1_fixed_update\\actor1_fixed_update.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "e892a64e-21e4-41a2-a361-12b64827e313",
-            "Value": {
-                "id": "6adb7d7e-2c86-4241-9331-7323f8d0f06f",
-                "resourcePath": "views\\e892a64e-21e4-41a2-a361-12b64827e313.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -429,18 +437,9 @@
                 "resourcePath": "scripts\\fixed_timestep_unregister\\fixed_timestep_unregister.yy",
                 "resourceType": "GMScript"
             }
-        },
-        {
-            "Key": "fa287b8a-091f-4f17-977e-b70b8c33cf5c",
-            "Value": {
-                "id": "6cf4afeb-294a-4e44-a90f-aa8d49873e69",
-                "resourcePath": "scripts\\keyboard_check_pressed_fixed\\keyboard_check_pressed_fixed.yy",
-                "resourceType": "GMScript"
-            }
         }
     ],
     "script_order": [
-        "3eadc62f-9500-4234-8749-4c73b212ee68",
         "1d425dfd-9c32-4b56-bf75-d04369a106a2",
         "1f284914-f703-4460-8d19-0536fa072ecc",
         "3ac24f5a-cbdc-477c-a0e5-9ec4d6661efe",
@@ -448,9 +447,11 @@
         "c03f40e5-4127-4790-ac79-4955862cfb92",
         "f6595c35-466b-47eb-a89c-7b0d85a7c135",
         "5242c7c1-2cde-45b8-a6fa-dbaac061d3e3",
+        "7dc69b2e-4a2d-4651-a007-1c6c142dec83",
+        "39547b63-981a-4685-9e2d-ee8bc0156ac9",
+        "d816a35a-1e8f-4fcf-aff2-fbb510f0255b",
         "92ca1882-9302-4ce9-9e72-44a80aacd57a",
-        "e4938f1a-8279-4830-a3ea-0d29108c723e",
-        "fa287b8a-091f-4f17-977e-b70b8c33cf5c"
+        "e4938f1a-8279-4830-a3ea-0d29108c723e"
     ],
     "tutorial": ""
 }

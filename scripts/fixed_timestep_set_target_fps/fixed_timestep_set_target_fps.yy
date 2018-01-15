@@ -1,8 +1,8 @@
 {
-    "id": "fa287b8a-091f-4f17-977e-b70b8c33cf5c",
+    "id": "d816a35a-1e8f-4fcf-aff2-fbb510f0255b",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "keyboard_check_pressed_fixed",
+    "name": "fixed_timestep_set_target_fps",
     "IsCompatibility": false,
     "IsDnD": false
 }

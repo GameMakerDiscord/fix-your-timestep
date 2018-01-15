@@ -1,8 +1,8 @@
 {
-    "id": "3eadc62f-9500-4234-8749-4c73b212ee68",
+    "id": "7dc69b2e-4a2d-4651-a007-1c6c142dec83",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "_fixed_timestep_ev_step_begin",
+    "name": "fixed_timestep_set_disabled",
     "IsCompatibility": false,
     "IsDnD": false
 }
