@@ -52,21 +52,3 @@ http://www.openpixelproject.com/
 
  - Programming solutions by:
 Glenn Fiedler at http://gafferongames.com/game-physics/fix-your-timestep/
-
- - Fix Your Timestep - By Kyle Askew @net8floz - www.kyleaskew.com 
-
-///HELP & SUPPORT///
-Find me on twitter or on the official /r/gamemaker Discord Server for questions or help. 
-
-*/
-
-/// @description Draws the spirte with the interpolated render values 
-/*
-draw_sprite_ext(
-	sprite_index,image_index,
-	lerp(xprevious,x,global._ts_render_alpha),
-	lerp(yprevious,y,global._ts_render_alpha),
-	image_xscale,image_yscale,
-	image_angle,image_blend,
-	image_alpha
-); 
