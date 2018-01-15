@@ -8,8 +8,7 @@ provide you with a fixed time step.
 
 
 ## How to use?
-First create an instance of `FixedTimestep`
-Register object indexes or specific instances using the `_register` functions. You may register the `id` with either a `user_event` or `script_index` which will be executed during the fixed tick in the context of that instance.
+First create an instance of `FixedTimestep`. Register objects or specific instances using the `_register` functions. You may register the `id` or `object_index` with either a `user_event` or `script_index` which will be executed during the fixed tick in the context of that instance.
 
 The fixed step fires in the `end step` by default. You may prevent this by calling `fixed_timestep_disable()` and instead calling `fixed_timestep_update()` to update the tick manually.
 
