@@ -56,7 +56,7 @@ Updates the fixed timestep. This is called automatically in the `FixTimestep` ob
 
 
 #### `fixed_timestep_set_target_fps`
-##### Sets the target fps for the fixed timestep. Is initially 60.
+Sets the target fps for the fixed timestep. Is initially 60.
 
 
 
