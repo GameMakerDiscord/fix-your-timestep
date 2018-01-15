@@ -17,6 +17,20 @@ The fixed step fires in the `end step` by default. You may prevent this by calli
 Don't gather input in your fixed timestep scripts or events. It should instead be used for physics calculations. The fixed timestep will be called 0-`n` amount of times per step based on the delta beween the current frame and the previous frame to attempt to skip or execute the tick to match the targeted frame rate and `fps_real`. 
 
 
+### Example of render interpolation discussed on Gaffer On Games.
+```
+draw_sprite_ext(
+	sprite_index,image_index,
+	lerp(xprevious,x,global._ts_render_alpha),
+	lerp(yprevious,y,global._ts_render_alpha),
+	image_xscale,image_yscale,
+	image_angle,image_blend,
+	image_alpha
+); 
+```
+
+
+
 ## Function reference
 
 ### `fixed_timestep_register_script(object_index | instance_id, script_index)`
@@ -39,6 +53,7 @@ Don't gather input in your fixed timestep scripts or events. It should instead b
 
 ### `fixed_timestep_set_target_fps`
 #### Sets the target fps for the fixed timestep. Is initially 60.
+
 
 
 
