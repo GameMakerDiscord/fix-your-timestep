@@ -33,22 +33,27 @@ draw_sprite_ext(
 ## Function reference
 
 #### `fixed_timestep_register_script(object_index | instance_id, script_index)`
-##### Registers an `object_index` or `instance_id` with the fixed timestep. The passed script will be executed in the scope of the registered instance on fixed tick. 
+Registers an `object_index` or `instance_id` with the fixed timestep. The passed script will be executed in the scope of the registered instance on fixed tick. 
 
 #### `fixed_timestep_register_user_event(object_index | instance_id, user_event_id)`
-##### Registers an `object_index` or `instance_id` with the fixed timestep. The passed `user_event` id  will be executed using `event_user(user_even_id)` in the scope of the registered instance on fixed tick. 
+Registers an `object_index` or `instance_id` with the fixed timestep. The passed `user_event` id  will be executed using `event_user(user_even_id)` in the scope of the registered instance on fixed tick. 
+
 
 #### `fixed_timestep_register_user_event(object_index | instance_id, user_event_id)`
-##### Registers an `object_index` or `instance_id` with the fixed timestep. The passed `user_event` id  will be executed using `event_user(user_even_id)` in the scope of the registered instance on fixed tick. 
+Registers an `object_index` or `instance_id` with the fixed timestep. The passed `user_event` id  will be executed using `event_user(user_even_id)` in the scope of the registered instance on fixed tick. 
+
 
 #### `fixed_timestep_unregister(object_index | instance_id)`
-##### Unregister an `object_index` or `instance_id` from the fixed timestep. This goes for both registered scripts and user event types.
+Unregister an `object_index` or `instance_id` from the fixed timestep. This goes for both registered scripts and user event types.
+
 
 #### `fixed_timestep_set_disabled(boolean)`
-##### Prevents the fixed timestep from updated. By default the fixed timestep updates itself in it's `step end` event. To take control of the execution order disable the fixed timestep and update it yourself
+Prevents the fixed timestep from updated. By default the fixed timestep updates itself in it's `step end` event. To take control of the execution order disable the fixed timestep and update it yourself
+
 
 #### `fixed_timestep_update()`
-##### Updates the fixed timestep. This is called automatically in the `FixTimestep` object in the `step end` event. Only call this function if you have already disabled the fixed timestep.
+Updates the fixed timestep. This is called automatically in the `FixTimestep` object in the `step end` event. Only call this function if you have already disabled the fixed timestep.
+
 
 #### `fixed_timestep_set_target_fps`
 ##### Sets the target fps for the fixed timestep. Is initially 60.
