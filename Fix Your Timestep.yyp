@@ -167,14 +167,6 @@
             }
         },
         {
-            "Key": "5242c7c1-2cde-45b8-a6fa-dbaac061d3e3",
-            "Value": {
-                "id": "c5ccebc5-e020-4106-9fb5-5b34d842bae4",
-                "resourcePath": "scripts\\fixed_timestep_readme\\fixed_timestep_readme.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "5c3b7ef1-047b-42fa-b99d-3eaa5fd89229",
             "Value": {
                 "id": "a86853e2-4042-4101-8610-316b78267a00",
@@ -446,7 +438,6 @@
         "142f594e-9a31-42c3-8966-296bc3033763",
         "c03f40e5-4127-4790-ac79-4955862cfb92",
         "f6595c35-466b-47eb-a89c-7b0d85a7c135",
-        "5242c7c1-2cde-45b8-a6fa-dbaac061d3e3",
         "7dc69b2e-4a2d-4651-a007-1c6c142dec83",
         "39547b63-981a-4685-9e2d-ee8bc0156ac9",
         "d816a35a-1e8f-4fcf-aff2-fbb510f0255b",
