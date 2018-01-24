@@ -71,3 +71,5 @@ http://www.openpixelproject.com/
 
  - Programming solutions by:
 Glenn Fiedler at http://gafferongames.com/game-physics/fix-your-timestep/
+
+ - DT recovery solution implemented from: http://www.8bitwarrior.com/steady-delta-time
