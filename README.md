@@ -1,5 +1,7 @@
 Fix Your Timestep source @net8floz 2018
 
+![preview](https://i.imgur.com/zea0oCc.png)
+
 ## What is it?
 
 This is a series of scripts to help you unlock your framerate by implementing the ideas 
