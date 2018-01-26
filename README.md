@@ -15,7 +15,9 @@ First create an instance of `FixedTimestep`. Register objects or specific instan
 The fixed step fires in the `end step` by default. You may prevent this by calling `fixed_timestep_disable()` and instead calling `fixed_timestep_update()` to update the tick manually.
 
 ## Further Reading 
-Don't gather input in your fixed timestep scripts or events. It should instead be used for physics calculations. The fixed timestep will be called 0-`n` amount of times per step based on the delta beween the current frame and the previous frame to attempt to skip or execute the tick to match the targeted frame rate and `fps_real`. 
+Don't gather input (gamepad, keyboard, etc ) in your fixed timestep scripts or events. It should instead be used for physics calculations. The fixed timestep will be called 0-`n` amount of times per step based on the delta beween the current frame and the previous frame to attempt to skip or execute the tick to match the targeted frame rate and `fps_real`. 
+
+Typically you'll still use regular old time/dt based operation for a lot of things, like UI tweening, outside of the fixed timestep.
 
 
 ### Example of render interpolation discussed on Gaffer On Games.
@@ -28,7 +30,12 @@ draw_sprite_ext(
 	image_angle,image_blend,
 	image_alpha
 ); 
+
 ```
+
+### GM Pitfalls 
+GM wasn't intended to work this way. It has a lot of blackbox features that happen at specific points in it's own tick. You may now need to take care with certain things like the `animation end event` and watch for any other oddities that happen with other GM events. 
+
 
 
 
